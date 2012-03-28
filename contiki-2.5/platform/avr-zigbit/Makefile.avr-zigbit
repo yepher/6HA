@@ -3,7 +3,7 @@ CONTIKI_CORE=contiki-avr-zigbit
 CONTIKI_TARGET_MAIN = ${CONTIKI_CORE}.o
 
 CONTIKI_TARGET_SOURCEFILES +=	rs232.c cfs-eeprom.c eeprom.c random.c \
-				mmem.c contiki-avr-zigbit-main.c
+				mmem.c contiki-avr-zigbit-main.c node-id.c
 
 CONTIKIAVR=$(CONTIKI)/cpu/avr
 CONTIKIBOARD=.
@@ -18,7 +18,7 @@ AVRDUDE_PROGRAMMER=jtag2
 #
 # The example is for an JTAGICE mkII used to program an ATmega128:
 # avrdude -v -P usb:xxxx -c jtag2 -p atmega128
-AVRDUDE_PORT=usb:00B000000D79
+AVRDUDE_PORT=usb
 
 
 # Additional avrdude options
