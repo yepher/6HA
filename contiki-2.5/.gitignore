@@ -5,6 +5,9 @@
 *.log
 *.elf
 *.ihex
+*.hex
+*.avr-zigbit
+*.out
 obj_*
 symbols.*
 Makefile.target
