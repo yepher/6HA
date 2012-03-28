@@ -1,0 +1,15 @@
+AVaRICE version 2.10, Feb  8 2011 05:54:03
+
+Defaulting JTAG bitrate to 250 kHz.
+
+JTAG config starting.
+Found a device: JTAGICEmkII
+Serial number:  00:a0:00:00:0d:3f
+Reported JTAG device ID: 0x9704
+Configured for device ID: 0x9704 atmega1281
+JTAG config complete.
+
+Reading Fuse Bytes:
+  Extended Fuse byte -> 0xff
+      High Fuse byte -> 0x91
+       Low Fuse byte -> 0xe2
