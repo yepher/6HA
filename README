@@ -2,4 +2,4 @@
 ==============================
 
 This a Home Automation project in which every sensors and drivers discuss over 6LoWPAN/CoAP.
-This repository includes harware design files for EAGLE, Contiki-based system files for embedded sensors and drivers and Linux-based server applications.
+This repository includes harware design files for EAGLE, Contiki-based system files for embedded sensors and drivers, and Linux-based server applications.
